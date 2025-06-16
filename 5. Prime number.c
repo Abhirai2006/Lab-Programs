@@ -5,6 +5,10 @@ int main(){
 
     printf("Enter a number: ");
     scanf("%d", &n);
+
+    if (n==0 || n==1 )
+       printf("%d is not a prime number.\n",n);
+    return 0;
 /*
 The loop starts from 2 and goes up to n−1,
 as we exclude 1 and the number itself when checking for divisors
