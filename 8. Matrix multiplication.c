@@ -23,7 +23,7 @@ int main(){
     }
 
     int B[r2][c2];
-    printf("Enter the elements of Matrix A: ");
+    printf("Enter the elements of Matrix B: ");
     for(i=0; i<r2; i++){
         for(j=0; j<c2; j++){
             scanf("%d",&B[i][j]);
